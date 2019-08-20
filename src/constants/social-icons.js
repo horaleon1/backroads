@@ -4,10 +4,10 @@ import { FaFacebook, FaTwitterSquare } from 'react-icons/fa'
 export default [
   {
     icon: <FaFacebook/>,
-    url:'https://facebook.com'
+    url:'https://www.facebook.com'
   },
   {
     icon: <FaTwitterSquare/>,
-    url:'https://twitter.com'
+    url:'https://www.twitter.com'
   },
 ]
