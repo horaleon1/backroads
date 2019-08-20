@@ -16,7 +16,8 @@
     "bootstrap": "^4.3.1",
     "gatsby": "^2.4.2",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "react-icons": "^3.7.0"
   },
   "devDependencies": {
     "prettier": "^1.17.0"

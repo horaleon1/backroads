@@ -1,6 +1,7 @@
 import React from "react";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 import Layout from '../components/Layout';
+
 
 export default () => (
  
@@ -9,6 +10,7 @@ export default () => (
 
      <div>
        Hello from backroads
+    
      </div>
 
   </Layout>
