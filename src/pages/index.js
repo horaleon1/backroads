@@ -7,10 +7,8 @@ export default () => (
  
   <Layout>
      {/* <Link to="/blog/">blog page </Link> */}
-
      <div>
        Hello from backroads
-    
      </div>
 
   </Layout>
