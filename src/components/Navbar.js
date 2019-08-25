@@ -8,6 +8,7 @@ import logo from "../images/logo.svg"
 
 const Navbar = () => {
   const [isOpen, setNav] = useState(false)
+  
   const toggleNav = () => {
     setNav(isOpen => !isOpen)
   }
