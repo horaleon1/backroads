@@ -1,13 +1,20 @@
-import React from "react";
-// import { Link } from "gatsby";
-import Layout from '../components/Layout';
-import Simple from '../components/Simple';
-
+import React from "react"
+import { Link } from "gatsby"
+import Layout from "../components/Layout"
+import Simple from "../components/Simple"
+import Banner from "../components/Banner"
 
 export default () => (
- 
   <Layout>
-    <Simple />
+    <Simple>
+      <Banner
+        title="continue exploring"
+        info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, id?"
+      >
+        <Link to="/tours" className="btn-white"> 
+          explore tours
+        </Link>
+      </Banner>
+    </Simple>
   </Layout>
- 
 )
