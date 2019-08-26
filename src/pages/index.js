@@ -1,8 +1,9 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/Layout"
-import Simple from "../components/Simple"
-import Banner from "../components/Banner"
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/Layout";
+import Simple from "../components/Simple";
+import Banner from "../components/Banner";
+import About from '../components/About';
 
 export default () => (
   <Layout>
@@ -16,5 +17,6 @@ export default () => (
         </Link>
       </Banner>
     </Simple>
+    <About />
   </Layout>
 )
